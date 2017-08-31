@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+	        <LinearLayout
+	            android:id="@+id/LinearLayout1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	             >
+	
+	            <TextView
+	                android:id="@+id/textView_signUp_name"
+	                android:layout_width="50dp"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20dp"
+	                android:layout_marginTop="20dp"
+	                android:layout_weight=".8"
+	                android:textColor="#ffffff"
+	                android:text="Number of clients" />
+	
+	            <EditText
+	                android:id="@+id/editText_total_client_cnt"
+	                android:layout_width="100dp"
+	                android:layout_height="40dp"
+	                android:layout_marginLeft="30dp"
+	                android:layout_marginRight="30dp"
+	                android:layout_marginTop="30dp"
+	                android:layout_weight="1.5"
+	                android:background="#ffffff"
+	                android:ems="10"
+	                android:inputType="number" >
+	
+	                <requestFocus />
+	            </EditText>
+	
+	        </LinearLayout>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <LinearLayout
+	            android:id="@+id/LinearLayout2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	             >
+	
+	            <TextView
+	                android:id="@+id/textView_signUp_name2"
+	                android:layout_width="50dp"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20dp"
+	                android:layout_marginTop="20dp"
+	                android:layout_weight=".8"
+	                android:textColor="#ffffff"
+	                android:text="Total Session Time" />
+	
+	            <EditText
+	                android:id="@+id/editText_session_time"
+	                android:layout_width="100dp"
+	                android:layout_height="40dp"
+	                android:layout_marginLeft="30dp"
+	                android:layout_marginRight="30dp"
+	                android:layout_marginTop="40dp"
+	                android:layout_weight="1.5"
+	                android:ems="10"
+	                android:background="#ffffff"
+	                android:inputType="number" >
+	
+	                <requestFocus />
+	            </EditText>
+	
+	        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/button_ok"
+                android:layout_width="172dp"
+                android:layout_height="65dp"
+                android:layout_weight="0.51"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:background="#ffffff"
+                android:text="OK" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
